@@ -1,0 +1,52 @@
+.todo-card {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    padding: 20px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.todo-title {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+.todo-description {
+    font-size: 0.9em;
+    margin-bottom: 15px;
+    color: #555;
+}
+.todo-date {
+    font-size: 0.8em;
+    color: #999;
+    margin-bottom: 15px;
+}
+.todo-actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.todo-checkbox {
+    display: flex;
+    align-items: center;
+}
+.todo-checkbox input {
+    margin-right: 10px;
+}
+.delete-btn {
+    background: #e74c3c;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.delete-btn:hover {
+    background: #c0392b;
+}
+.complete {
+    text-decoration: line-through;
+}
